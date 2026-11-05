@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#044a55"/>
+      <stop offset="1" stop-color="#086a87"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.3" r="0.6">
+      <stop offset="0" stop-color="#2bb3c0" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#2bb3c0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="22" fill="url(#g)"/>
+  <rect width="1200" height="300" rx="22" fill="url(#grid)"/>
+  <rect width="1200" height="300" rx="22" fill="url(#glow)"/>
+  <g fill="none" stroke="#ff5a1f" stroke-width="2">
+    <circle cx="1010" cy="150" r="46" stroke-width="7"/>
+    <circle cx="1010" cy="150" r="78" stroke-opacity=".45"/>
+    <circle cx="1010" cy="150" r="112" stroke-opacity=".25"/>
+    <circle cx="1010" cy="150" r="146" stroke-opacity=".12"/>
+  </g>
+  <text x="64" y="128" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff">Avidha Chandra</text>
+  <text x="66" y="178" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#d9e5ea">BS Data Science &amp; AI · IIM Sambalpur</text>
+  <text x="66" y="232" font-family="Consolas, Menlo, monospace" font-size="19" fill="#9fe3ea" letter-spacing="1">I build things that work on the ground: AI, automation and data for real people</text>
+</svg>
