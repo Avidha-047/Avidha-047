@@ -4,7 +4,7 @@
 
 I'm a second-year **BS Data Science & AI** student at **IIM Sambalpur**. I like building things that work outside the classroom: local AI assistants, automation that saves real people time, and prototypes for social problems I've seen first-hand.
 
-- Currently building with **local LLMs, browser sensors and data pipelines**
+- Currently building with **computer vision, local LLMs, browser sensors and data pipelines**
 - Exploring data analytics, product management and consulting
 - Member of IIM Sambalpur's **Career and Skill Development Committee** (placements)
 
@@ -12,6 +12,7 @@ I'm a second-year **BS Data Science & AI** student at **IIM Sambalpur**. I like 
 
 | Project | What it is | Built with |
 |---|---|---|
+| **[Kitchen Hygiene AI](https://github.com/Avidha-047/kitchen-hygiene-ai)** | A computer-vision system that watches a kitchen CCTV feed and flags hygiene violations, like cooking without washing hands, with a confidence score and an evidence frame. I fine-tuned my own YOLOv8 cockroach detector (mAP@0.5 0.87) and combined pose tracking, a Bayesian network for soap use and first-order rules; it says "uncertain" instead of blaming anyone when it can't see. | Python · YOLOv8 · ByteTrack · OpenCV · Google Colab |
 | **[Attendance Register](https://github.com/Avidha-047/attendance-register)** | A web app that replaces the paper attendance register: teachers mark each class once, students see subject-wise percentages and how many classes they need to reach 75%, and a dashboard predicts who is about to fall below 75%. Role-based logins and 39 automated tests. | Python · Flask · SQLAlchemy · SQLite · Chart.js · pytest |
 | **[J.A.R.V.I.S. HUD](https://github.com/Avidha-047/jarvis-hud)** | A private, voice- and gesture-controlled AI assistant that runs fully on my laptop, plus a benchmark of two local models (83% vs 79% accuracy, 1.68 s vs 1.27 s median latency). | OpenJarvis · Ollama (Qwen 3.5) · faster-whisper · MediaPipe · Three.js |
 | **[SafeStep](https://github.com/Avidha-047/safestep)** | An AI-enabled smart insole that sends an SOS even when your phone can't. Working prototype with real tap and fall detection, GPS and a live campus dashboard. [Try it live →](https://superb-dodol-78b5ea.netlify.app) | JavaScript · Device Motion & Geolocation APIs · Leaflet · ESP32 / TinyML (planned) |
@@ -43,6 +44,9 @@ I'm a second-year **BS Data Science & AI** student at **IIM Sambalpur**. I like 
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![Power Automate](https://img.shields.io/badge/Power%20Automate-0066FF?logo=powerautomate&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?logo=ollama&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-111F68?logo=ultralytics&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?logo=googlecolab&logoColor=black)
 ![Canva](https://img.shields.io/badge/Canva-00C4CC?logo=canva&logoColor=white)
 
 **Languages:** English, Hindi
